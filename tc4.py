@@ -1,0 +1,9 @@
+a=800
+b="string"
+c=[2,3,4]
+d=50
+e=4<5
+ans1=a*d
+ans2=a+b
+ans3=c+d
+ans4=a+b+c

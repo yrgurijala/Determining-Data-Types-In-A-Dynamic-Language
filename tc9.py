@@ -1,0 +1,10 @@
+x1=10+20+30+400
+y1="a"+"b"+"c"
+z1=[2]+[3]+[12,13]
+ans1=x1*y1+z1
+ans2=ans1 #assignment
+ans3=[2]+"str"+45
+ans4=ans3+ans2
+b1=2>3
+b2=3<4
+ans5=b1+b2
