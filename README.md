@@ -1,2 +1,7 @@
 # DeterminingDataTypesInADynamicLanguage
-Python is interpreted. Here we will take the other route. This is a ”compiler” program to determine or infer the data type of each variable. The input source code will be: Python. This “compiler”-style program will be developed in C++. The output will be a list of variables with their data types, unless the data type cannot be determined. This list should be alphabetically sorted. Your program will use regular expression to recognize identifiers, numbers and strings. Your program will use a simplified context-free grammar to recognize arithmetic expressions with ’+’. In order to detect data types you will have to perform a partial evaluation using an attribute grammar to extend the parse tree. Your program does not have to generate intermediate or object code, but this will be required in a future homework. The data types in Python will be: bool, int, str, list, undefined. Notice it is not necessary to treat them as objects.
+
+- This is a ”compiler” program to determine or infer the data type of each variable. 
+- The input source code is: Python. This “compiler”-style program is developed in C++. 
+- The output is a list of variables with their data types, unless the data type cannot be determined. This list is alphabetically sorted. 
+- This Program uses regular expression to recognize identifiers, numbers and strings. 
+- This program will use a simplified context-free grammar to recognize arithmetic expressions with ’+’. In order to detect data types, I had to perform a partial evaluation using an attribute grammar to extend the parse tree. The data types in Python is: bool, int, str, list, undefined. 
